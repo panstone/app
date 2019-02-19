@@ -1,6 +1,14 @@
 <h1>Содержание главной страницы</h1>
 
+<div class="center jumbotron">
+  <h2>
+    Вы можете зарегестрироваться сейчас! </h2>
+  <%= link_to "Зарегестрироваться!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+
 <%= link_to 'Наши игроки', users_path(@index), :class => "btn" %>
 
 <h1>Тема сообщения</h1>
 <p style="font-size:18px;">Содержание сообщения, достаточно интересного</p>
+
